@@ -1,0 +1,91 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Big Shoulder Display', sans-serif;
+  font-weight: 400;
+  /* background-color: hsl(0, 0%, 95%); */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  /* border-radius: 20px; */
+}
+#container {
+  border: none;
+  width: 60%;
+}
+
+img {
+  margin: auto;
+  padding: 20px;
+}
+h1{
+  margin:20px auto;
+  padding: 20px;
+  font-weight: 700;
+  border: none
+  font-size: 25px;
+  color: hsl(0, 0%, 95%);
+  
+}
+
+p {
+  margin: 20px auto;
+  padding: 20px 30px 60px 30px;
+  /* border: 1px solid black; */
+  color: hsla(0, 0%, 100%, 0.75)
+}
+
+button {
+  margin-left: 70px; 
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  /* color:  hsl(31, 77%, 52%); */
+
+}
+
+.firstContainer {
+  width: 125px;
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.secondContainer {
+  width: 125px;
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+.thirdContainer {
+  width: 125px;
+  background-color: hsl(184, 84%, 15%) ;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  color:hsl(184, 100%, 22%)
+}
+
+.luxury {
+  color:hsl(184, 84%, 15%)
+}
+
